@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Apr 21 02:33:13 2016
+# Process ID: 3936
+# Log file: C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/pa.fromNetlist.tcl}

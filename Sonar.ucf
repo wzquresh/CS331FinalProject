@@ -1,0 +1,9 @@
+# Clock
+Net "clk"		LOC = "C9"; #  | IOSTANDARD = LVCMOS33 ;
+#NET "Clk50Mhz"		PERIOD = 20ns;   # 20ns = 50Mhz
+
+NET "LED0" LOC = "F12"; # | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+
+NET "echo_pin" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "echo_pin"		LOC = "B6";
+NET "trigger_pin"		LOC = "A6";

@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-vq100-5 "Sonar.ngc" Sonar.ngd  
+map -intstyle ise -p xc3s250e-vq100-5 -cm area -ir off -pr off -c 100 -o Sonar_map.ncd Sonar.ngd Sonar.pcf 
+par -w -intstyle ise -ol high -t 1 Sonar_map.ncd Sonar.ncd Sonar.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sonar.twx Sonar.ncd -o Sonar.twr Sonar.pcf 
+xst -intstyle ise -ifn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.xst" -ofn "C:/Users/Waqas/Documents/Xilinx Projects/CS331FinalProject/Sonar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-vq100-5 "Sonar.ngc" Sonar.ngd  
+map -intstyle ise -p xc3s250e-vq100-5 -cm area -ir off -pr off -c 100 -o Sonar_map.ncd Sonar.ngd Sonar.pcf 
+par -w -intstyle ise -ol high -t 1 Sonar_map.ncd Sonar.ncd Sonar.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sonar.twx Sonar.ncd -o Sonar.twr Sonar.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sonar.ucf -p xc3s250e-vq100-5 "Sonar.ngc" Sonar.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sonar.ucf -p xc3s250e-vq100-5 "Sonar.ngc" Sonar.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sonar.ucf -p xc3s250e-vq100-5 "Sonar.ngc" Sonar.ngd  
+map -intstyle ise -p xc3s250e-vq100-5 -cm area -ir off -pr off -c 100 -o Sonar_map.ncd Sonar.ngd Sonar.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-vq100-5 "Sonar.ngc" Sonar.ngd  
+map -intstyle ise -p xc3s250e-vq100-5 -cm area -ir off -pr off -c 100 -o Sonar_map.ncd Sonar.ngd Sonar.pcf 
+par -w -intstyle ise -ol high -t 1 Sonar_map.ncd Sonar.ncd Sonar.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sonar.twx Sonar.ncd -o Sonar.twr Sonar.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-vq100-5 "Sonar.ngc" Sonar.ngd  
+map -intstyle ise -p xc3s250e-vq100-5 -cm area -ir off -pr off -c 100 -o Sonar_map.ncd Sonar.ngd Sonar.pcf 
+par -w -intstyle ise -ol high -t 1 Sonar_map.ncd Sonar.ncd Sonar.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Sonar.twx Sonar.ncd -o Sonar.twr Sonar.pcf 
